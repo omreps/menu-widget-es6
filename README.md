@@ -15,9 +15,6 @@ demo: [http://vh152449.eurodir.ru/web-widget-es6](http://vh152449.eurodir.ru/web
 
 Insert this <script> code in the end of the <body> section on your web site:
 
-![ScreenshotScript](ScreenshotScript.jpg)
-
-
 <pre style="color:#000000;background:#ffffff;"><span style="color:#808030; ">&lt;</span>script type<span style="color:#808030; ">=</span><span style="color:#800000; ">"</span><span style="color:#0000e6; ">module</span><span style="color:#800000; ">"</span><span style="color:#808030; ">&gt;</span>
    <span style="color:#800000; font-weight:bold; ">import</span> <span style="color:#800080; ">{</span>MyWidget<span style="color:#800080; ">}</span> from <span style="color:#800000; ">'</span><span style="color:#0000e6; ">./widget.js</span><span style="color:#800000; ">'</span><span style="color:#800080; ">;</span>
    <span style="color:#800000; font-weight:bold; ">new</span> MyWidget<span style="color:#808030; ">(</span><span style="color:#800000; ">'</span><span style="color:#0000e6; ">dark</span><span style="color:#800000; ">'</span><span style="color:#808030; ">,</span> <span style="color:#800000; ">'</span><span style="color:#0000e6; ">true</span><span style="color:#800000; ">'</span><span style="color:#808030; ">,</span>
