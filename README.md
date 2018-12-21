@@ -27,8 +27,8 @@ Insert this <script> code in the end of the <body> section on your web site:
 
 you can use settings params, where
 
-- **center** can be "true" or "false", true - will center left and right urls bars
 - **theme** can be "dark" and "light", for dark and light appearance
+- **center** can be "true" or "false", true - will center left and right urls bars
 - **left** and rigth links - put the link names and urls, also make dropdowns with links
 
 ## Widget es6-script & demo page
