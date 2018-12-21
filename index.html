@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="imagetoolbar" content="no">
+		<meta name="msthemecompatible" content="no">
+		<meta name="cleartype" content="on">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<meta name="google" value="notranslate">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="application-name" content="">
+		<meta name="msapplication-tooltip" content="">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-tap-highlight" content="no">
+		<title>Menu Widget sample</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="/site-sample-assets/styles/app.min.css?t=undefined" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+
+	<body class="page">
+		<div class="box">
+			<div class="index">
+				<div class="content">
+					<div class="index__group">
+						<h3 class="heading">Надо мной должно появится меню</h3>
+						<p class="description">Если виджет установлен - меню там ↑</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="module">
+			import {MyWidget} from '/assets/scripts/widget.js';
+				new MyWidget('dark', 'true','[["linkL1|http://l1.html"],["linkL1|http://l1.html"],["Dropdown1", "linkL2|http://l2.html","linkL3|http://l3.html"], ["linkL4|http://l1.html"], ["LinkSet", "linkL2|http://l2.html","linkL3|http://l3.html"]]',
+				'[["linkR1|http://r1.html"],["linkR2|http://r2.html"],["Dropdown2", "linkL2|http://l2.html","linkL3|http://l3.html"]]');
+
+		</script>
+	</body>
+
+</html>

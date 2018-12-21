@@ -1,0 +1,11 @@
+.mywdgt_navbar {
+  background-color: #333;
+  color: #fff;
+}
+.mywdgt_a,
+.mywdgt_a:hover,
+.mywdgt_a:visited {
+  color: #fff;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndpZGdldF9kYXJrLnN0eWwiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx1QkFBQTtFQUNBLFlBQUE7O0FBQ0o7OztFQUdJLFlBQUEiLCJmaWxlIjoid2lkZ2V0X2RhcmsubWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5teXdkZ3RfbmF2YmFyXHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yICMzMzNcclxuICAgIGNvbG9yIHdoaXRlXHJcbi5teXdkZ3RfYVxyXG4ubXl3ZGd0X2E6aG92ZXJcclxuLm15d2RndF9hOnZpc2l0ZWRcclxuICAgIGNvbG9yIHdoaXRlIl19 */
