@@ -21,7 +21,7 @@
 		<title>Menu Widget sample</title>
 		<meta name="description" content="">
 		<meta name="keywords" content="">
-		<link href="/site-sample-assets/styles/app.min.css?t=undefined" rel="stylesheet">
+		<link href="app.min.css?t=undefined" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 
@@ -37,9 +37,11 @@
 			</div>
 		</div>
 		<script type="module">
-			import {MyWidget} from '/assets/scripts/widget.js';
-				new MyWidget('dark', 'true','[["linkL1|http://l1.html"],["linkL1|http://l1.html"],["Dropdown1", "linkL2|http://l2.html","linkL3|http://l3.html"], ["linkL4|http://l1.html"], ["LinkSet", "linkL2|http://l2.html","linkL3|http://l3.html"]]',
-				'[["linkR1|http://r1.html"],["linkR2|http://r2.html"],["Dropdown2", "linkL2|http://l2.html","linkL3|http://l3.html"]]');
+			import {MyWidget} from 'widget.js';
+			new MyWidget(	'dark', 
+							'true',
+							'[["linkL1|http://l1.html"],["linkL1|http://l1.html"],["Dropdown1", "linkL2|http://l2.html","linkL3|http://l3.html"], ["linkL4|http://l1.html"], ["LinkSet", "linkL2|http://l2.html","linkL3|http://l3.html"]]',
+							'[["linkR1|http://r1.html"],["linkR2|http://r2.html"],["Dropdown2", "linkL2|http://l2.html","linkL3|http://l3.html"]]');
 
 		</script>
 	</body>

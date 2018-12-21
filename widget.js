@@ -119,13 +119,13 @@ export class MyWidget {
 		this.render();
 	}
 	render() {
-		$('head').append('<link rel="stylesheet" type="text/css" href="/assets/styles/widget.min.css">');
+		$('head').append('<link rel="stylesheet" type="text/css" href="widget.min.css">');
 		$('head').append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">');
 
 		if (this.dark) {
-			$('head').append('<link rel="stylesheet" type="text/css" href="/assets/styles/widget_dark.min.css">');
+			$('head').append('<link rel="stylesheet" type="text/css" href="widget_dark.min.css">');
 		} else {
-			$('head').append('<link rel="stylesheet" type="text/css" href="/assets/styles/widget_light.min.css">');
+			$('head').append('<link rel="stylesheet" type="text/css" href="widget_light.min.css">');
 		}
 	}
 }
